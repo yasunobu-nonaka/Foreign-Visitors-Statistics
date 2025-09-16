@@ -1,2 +1,52 @@
-.venv
-.ipyn_checkpoints
+# Virtual environments
+.venv/
+.env
+*.env
+.python-version
+
+# Python bytecode / builds
+__pycache__/
+*.py[cod]
+*$py.class
+.build/
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Caches & tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# IDE / Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+*.tmp
+*.swp
+*.swo
+~$*.xlsx
+~$*.xls
+.~lock.*
+
+# Data locks or temporary artifacts
+**/.~lock.*#
+
+# Generated reports
+reports/
